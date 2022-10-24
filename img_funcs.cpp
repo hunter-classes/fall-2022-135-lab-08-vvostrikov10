@@ -3,7 +3,6 @@
 #include "imageio.h"
 
 void invert(std::string inpImg, std::string outImg){
-    std::cout << "hi" << std::endl;
     int img[MAX_H][MAX_W];
     int h, w;
     readImage(inpImg, img, h, w);

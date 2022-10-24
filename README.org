@@ -6,7 +6,7 @@
 
 * GitHub username: vvostrikov10
 
-* Notes:
+* Notes: If the scaled image produced by scale function exceeds 512x512 image size, only the first 512 pixels height and width wise will be recorded. 
 
 
   

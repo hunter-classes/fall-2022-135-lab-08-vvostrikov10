@@ -10,7 +10,7 @@ using namespace std;
 
 // Reads a PGM file.
 // Notice that: height and width are passed by reference!
-void readImage(std::string filename, int image[MAX_H][MAX_W], int &height, int &width) {
+void readImage(std::string filename, int image[][MAX_W], int &height, int &width) {
 	char c;
 	int x;
 	ifstream instr;
@@ -46,7 +46,7 @@ void readImage(std::string filename, int image[MAX_H][MAX_W], int &height, int &
 
 // Writes a PGM file
 // Need to provide the array data and the image dimensions
-void writeImage(std::string filename, int image[MAX_H][MAX_W], int height, int width) {
+void writeImage(std::string filename, int image[][MAX_W], int height, int width) {
 	ofstream ostr;
 	ostr.open(filename);
 	if (ostr.fail()) {

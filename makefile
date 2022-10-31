@@ -5,4 +5,4 @@ main.o: main.cpp imageio.h img_funcs.h
 imageio.o: imageio.cpp imageio.h
 img_funcs.o: img_funcs.cpp img_funcs.h imageio.h
 clean:
-	rm *.o main invert.pgm invertRight.pgm scale.pgm pixelate.pgm whiteBox.pgm whiteFrame.pgm
+	rm *.o main taskA.pgm taskB.pgm taskC.pgm taskD.pgm taskE.pgm taskF.pgm
